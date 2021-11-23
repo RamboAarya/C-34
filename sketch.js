@@ -89,6 +89,6 @@ function draw() {
 }
 
 function mouseDragged() {
-    Matter.Body.setPosition(hero.body, { x: 400, y: 765});
+    Matter.Body.setPosition(hero.body, { x:mouseX, y:mouseY});
   }
 
